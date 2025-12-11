@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Africa Macroeconomic Analysts Programme | Empowering Africa's Next Economic Leaders | AMAP</title>
+    <meta name="description" content="Join AMAP - a free 8-week online program equipping African students with advanced macroeconomic analysis skills, policy insights, and data-driven tools to shape Africa's economic future." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@18.2.0",
+          "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+          "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+          "lucide-react": "https://esm.sh/lucide-react@0.292.0"
+        }
+      }
+    </script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                50: '#f0fdf4',
+                100: '#dcfce7',
+                600: '#16a34a',
+                800: '#166534',
+                900: '#14532d',
+              },
+              accent: {
+                900: '#0f172a',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom utility for smooth scrolling */
+      html { scroll-behavior: smooth; }
+      .fade-in { animation: fadeIn 0.8s ease-out forwards; opacity: 0; }
+      .slide-up { animation: slideUp 0.6s ease-out forwards; opacity: 0; transform: translateY(20px); }
+      @keyframes fadeIn { to { opacity: 1; } }
+      @keyframes slideUp { to { opacity: 1; transform: translateY(0); } }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased">
+    <div id="root"></div>
+  </body>
+</html>
